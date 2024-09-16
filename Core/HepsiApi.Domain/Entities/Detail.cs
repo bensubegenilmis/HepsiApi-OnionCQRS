@@ -25,6 +25,6 @@ namespace HepsiApi.Domain.Entities
         public required string Description { get; set; }
 
         public required int CategoryId { get; set; }
-        public required  int Category { get; set; }
+        public Category Category { get; set; }
     }
 }
